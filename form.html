@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool_sign_up_form</title>
+  </head>
+  <body>
+    <header>
+      <nav style="text-align: right" class="global-nav">
+        <a href="./index.html">Home</a>
+        <a href="./form.html">Sign up</a>
+      </nav>
+      <img src="altschool logo.jpg" width="70px" />
+    </header>
+    <main>
+      <h1 class="application">Application Form</h1>
+      <p>fill in your details</p>
+      <form id="signup" action="https://altschoolafrica.com/" method="get">
+        <div style="display:flex">
+          <div class="leftside">
+            <label for="text1">First Name*</label><br />
+            <input
+              type="text"
+              id="text1"
+              placeholder="Enter first name"
+              name="fist name"
+              required
+            /><br /><br />
+
+            <label for="option">Gender*</label><br />
+            <select id="option" name="gender" required>
+              <option disabled selected value="">select your gender</option>
+              <option value="male">male</option>
+              <option value="female">female</option></select
+            ><br /><br />
+            <label for="email">Email Address*</label><br />
+            <input
+              type="email"
+              id="email1"
+              name="email"
+              placeholder="Enter email address"
+              required
+            /><br /><br />
+            <label for="option2">Country*</label><br />
+            <select id="option2" name="country" required>
+              <option disabled selected value="">Select your country</option>
+              <option value="nigeria">Nigeria</option>
+              <option value="kenya">Kenya</option>
+              <option value="canada">Canada</option>
+              <option value="USA">United State of America</option></select
+            ><br /><br />
+            <label for="option3">Employment Status*</label><br />
+            <select id="option3" name="employment status" required>
+              <option disabled selected value="">
+                Select employment status
+              </option>
+              <option value="employed">employed</option>
+              <option value="unemployed">umemployed</option>
+              <option value="self-employed">self-employed</option></select
+            ><br /><br />
+            <label for="option4">Choose School*</label><br />
+            <select name="department" id="option4" required>
+              <option disabled selected value="">Select school</option>
+              <option value="engineering">School of Engineering</option>
+              <option value="product">School of Product</option></select
+            ><br /><br />
+            <label for="option5">How did you hear about us?*</label><br />
+            <select name="how did you hear" id="option5" required>
+              <option value=""></option>
+              <option disabled selected value="">Select channel*</option>
+              <option value="facebook">facebook</option>
+              <option value="instagram">instagram</option>
+              <option value="twitter">twitter</option>
+              <option value="google">google</option></select
+            ><br /><br />
+          </div>
+          <div class="rightside">
+            <label for="text2">Last Name*</label><br />
+            <input
+              type="text"
+              id="text2"
+              name="last name"
+              placeholder="Enter last name"
+              required
+            /><br /><br />
+            <label for="date1">Date of Birth*</label><br />
+            <input
+              type="date"
+              name="date of birth"
+              id="date1"
+              required
+            /><br /><br />
+            <label for="option6">Education Level*</label><br />
+            <select id="option6" name="level" required>
+              <option disabled selected value="">
+                Select level of education
+              </option>
+              <option value="doctorate">PhD</option>
+              <option value="BSCE">Bachelors</option>
+              <option value="MA">master</option>
+              <option value="diploma">undergraduate</option>
+              <option value="waec">secondary</option></select
+            ><br /><br />
+            <label for="text3">State/City of Residence*</label><br />
+            <input
+              type="text"
+              name="state/city"
+              id="text3"
+              placeholder="Enter your state of residence"
+              required
+            /><br /><br />
+            <label for="phone1">Phone Number*</label><br />
+            <input
+              type="number"
+              id="phone1"
+              name="phone number"
+              placeholder="07042267778"
+              required
+            /><br /><br />
+            <label for="option7">Choose Course of Study*</label><br />
+            <select id="option7" name="course of study">
+              <option disabled selected value="">Select course</option>
+              <option value="frontend">frontend engineering</option>
+              <option value="backend">backend engineering</option>
+              <option value="cloud">cloud engineering</option></select
+            ><br /><br />
+            <label for="text4">Scholarship/Discount Code</label><br />
+            <input
+              type="text"
+              id="text4"
+              name="promo code"
+              placeholder="Scholarship or student ID or discount codes"
+            />
+          </div>
+        </div>
+        <p>
+          By clicking, I agree to
+          <a href="https://altschoolafrica.com/terms">Terms of Use</a> and
+          acknowledge that i have read the
+          <a href="https://altschoolafrica.com/policy">Privacy Policy.</a>
+        </p>
+        <input type="submit" value="Proceed" />
+      </form>
+      <p>
+        Already have an account?
+        <a href="https://portal.altschoolafrica.com/auth/login">Sign In</a>
+      </p>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 Chukwuani Kingsley</p>
+      <p>
+        Contact:
+        <a href="mailto:alexkingsley36@gmail.com">alexkingsley36@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
