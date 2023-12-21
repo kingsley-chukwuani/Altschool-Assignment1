@@ -17,7 +17,7 @@
       <h1 class="application">Application Form</h1>
       <p>fill in your details</p>
       <form id="signup" action="https://altschoolafrica.com/" method="get">
-        ">
+        
           <div class="leftside">
             <label for="first-name">First Name*</label><br />
             <input
@@ -27,6 +27,16 @@
               name="fist name"
               required
             /><br /><br />
+             <div class="rightside">
+            <label for="text2">Last Name*</label><br />
+            <input
+              type="text"
+              id="text2"
+              name="last name"
+              placeholder="Enter last name"
+              required
+            /><br /><br />
+         
 
             <label for="option">Gender*</label><br />
             <select id="option" name="gender" required>
@@ -65,31 +75,14 @@
               <option value="engineering">School of Engineering</option>
               <option value="product">School of Product</option></select
             ><br /><br />
-            <label for="option5">How did you hear about us?*</label><br />
-            <select name="how did you hear" id="option5" required>
-              <option value=""></option>
-              <option disabled selected value="">Select channel*</option>
-              <option value="facebook">facebook</option>
-              <option value="instagram">instagram</option>
-              <option value="twitter">twitter</option>
-              <option value="google">google</option></select
-            ><br /><br />
-          </div>
-          <div class="rightside">
-            <label for="text2">Last Name*</label><br />
-            <input
-              type="text"
-              id="text2"
-              name="last name"
-              placeholder="Enter last name"
-              required
-            /><br /><br />
+                     </div>
             <label for="date1">Date of Birth*</label><br />
             <input
               type="date"
               name="date of birth"
               id="date1"
               required
+              placeholder="mm/dd/yy"
             /><br /><br />
             <label for="option6">Education Level*</label><br />
             <select id="option6" name="level" required>
@@ -125,6 +118,17 @@
               <option value="backend">backend engineering</option>
               <option value="cloud">cloud engineering</option></select
             ><br /><br />
+
+             <label for="option5">How did you hear about us?*</label><br />
+            <select name="how did you hear" id="option5" required>
+              <option value=""></option>
+              <option disabled selected value="">Select channel*</option>
+              <option value="facebook">facebook</option>
+              <option value="instagram">instagram</option>
+              <option value="twitter">twitter</option>
+              <option value="google">google</option></select
+            ><br /><br />
+
             <label for="text4">Scholarship/Discount Code</label><br />
             <input
               type="text"
